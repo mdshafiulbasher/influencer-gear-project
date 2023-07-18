@@ -84,6 +84,13 @@ width: 90%;
 .collection{
     margin: 50px 100px;
 }
+.title{
+    color: #3A3A3A;
+font-size: 28px;
+font-weight: 600;
+padding: 50px 0px;
+text-align: center;
+}
 .collection-container{
     background-color: white;
     padding: 10px;
@@ -115,6 +122,57 @@ letter-spacing: 0.252px;
     justify-content: space-around;
     
 }
+.btn{
+    color: #E02C6D;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 50px;
+    float: right;
+}
+/* feature style */
+.feature{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.feature-title{
+    color: #0A0826;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.feature-description{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.primary-btn{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: #E02C6D;
+}
+.footer{
+    background: #0A0826;
+    color: white;
+    text-align: center;
+    padding: 100px 0px;
+}
+.footer h3{
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer div{
+    padding-top: 10px;
+}
+.footer div i{
+    padding-left: 20px;
+}
+
 
 /* responsive */
 /* mobile device */
@@ -156,6 +214,10 @@ letter-spacing: 0.252px;
     .collection-card{
         grid-template-columns: repeat(1, 320px);   
     }
+    .feature{
+        padding: 10px;
+        flex-direction: column;
+    }
 
     
 }
@@ -184,5 +246,10 @@ letter-spacing: 0.252px;
     .collection-card{
         grid-template-columns: repeat(2, 320px);   
     }
+    .feature{
+        padding: 30px;
+        flex-direction: column;
+    }
+
 }
 
